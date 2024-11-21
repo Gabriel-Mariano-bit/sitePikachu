@@ -50,13 +50,13 @@ main{
     align-items: center;
 }
 .title_text{
-    font-size: 20vw;
+    font-size: 17vw;
     color: #fff;
 }
 .title_transparent{
     position: absolute;
-    top:-50%;
-    font-size: 24vw;
+    top:-46%;
+    font-size: 21vw;
     color: #fff5;
     z-index: -1;
 }
@@ -96,7 +96,7 @@ main{
 }
 .geladeira-image{
     position: absolute;
-    top: 100%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
