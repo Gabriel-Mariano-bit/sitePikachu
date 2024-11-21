@@ -8,8 +8,8 @@
 /* Define as cores para todo o site */
 :root{
     /* Define variaveis no css */
-    --primary-color: #2f2c79;
-    --secondary-color:#0000;
+    --primary-color:#2f2c79;
+    --secondary-color: #000;
 }
 body{
     height: 100vh;
@@ -22,7 +22,7 @@ body{
     height: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    width: 5vw;
+    width: 90vw;
     margin: auto;
 }
 header{
@@ -56,7 +56,7 @@ main{
 .title_transparent{
     position: absolute;
     top:-50%;
-    font-size: 27vw;
+    font-size: 24vw;
     color: #fff5;
     z-index: -1;
 }
@@ -67,7 +67,7 @@ main{
     z-index: 1;
 }
 .description_title{
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .description_text{
     width: 500px;
@@ -79,7 +79,7 @@ main{
     height: 100px;
     width: 411px;
     background-color: var(--secondary-color);
-    color: #4B0082;
+    color: #fff;
     font-size: 3rem;
     text-decoration: none;
     display: flex;
@@ -95,9 +95,8 @@ main{
     font-size: 1rem;
 }
 .geladeira-image{
-    width: 35%;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -143,6 +142,6 @@ main{
         font-size: 7vw;
     }
     .geladeira-image{
-        width: 30vw;
+        width: 90vw;
     }
 }
